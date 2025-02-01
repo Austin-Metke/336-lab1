@@ -1,0 +1,155 @@
+html,
+body {
+    background-color: #00366a;
+    color: white;
+    margin: 0;
+    height: 100%;
+}
+
+
+header,
+main,
+nav {
+    text-align: center;
+
+}
+
+.nav-item {
+    background-color: gray;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title h1 {
+    background-color: black;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+nav {
+    background-color: #a39061;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+#footer-content {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+
+.nav-item a {
+    /* links within "nav" container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    /* removes underline*/
+    color: white;
+    /* by default, links are blue */
+}
+
+.nav-item.active {
+    border: 2px solid white;
+}
+
+
+.nav-item :hover {
+    /*pseudo class*/
+    border-bottom: 2px;
+    font-size: 2em;
+    transition: .2s;
+    color: black;
+    /* transition effect */
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.column table {
+    padding-top: 20px;
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+    color: white;
+}
+
+td strong {
+    color: black;
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hobby {
+    color: yellow;
+}
+
+.table-row {
+    background-color: #a39061;
+}
+
+#table-header {
+    background-color: white;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+    text-align: center;
+}
+
+
+body {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
+#greeting,
+.column h2 {
+    text-align: center;
+}
